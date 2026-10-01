@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Untuk Lydia Putri Ayu Ningsih ❤️</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         HATI TERBANG
+    ========================================== -->
+
+    <div id="hearts"></div>
+
+
+
+    <!-- =========================================
+         1. OPENING
+    ========================================== -->
+
+    <section
+        id="opening"
+        class="page active"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                🎂
+            </div>
+
+            <h1>
+                Happy Birthday ❤️
+            </h1>
+
+            <h2>
+                Lydia Putri Ayu Ningsih
+            </h2>
+
+            <p>
+                Hari ini adalah hari spesial
+                untuk seseorang yang sangat berarti bagiku.
+            </p>
+
+            <p class="small-text">
+                Aku punya sedikit kejutan untukmu.
+                Tapi kamu harus melewati beberapa
+                tantangan dulu 😏
+            </p>
+
+            <button onclick="startGame()">
+                Mulai Perjalanan ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         2. MINI GAME
+    ========================================== -->
+
+    <section
+        id="game"
+        class="page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                🎮
+            </div>
+
+            <h1>
+                Mini Game ❤️
+            </h1>
+
+            <p id="questionNumber">
+                Pertanyaan 1 dari 4
+            </p>
+
+            <h2 id="question">
+                Pertanyaan
+            </h2>
+
+            <div id="answers"></div>
+
+            <p id="score">
+                Pilih jawaban yang benar 😏
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         3. OUR STORY
+    ========================================== -->
+
+    <section
+        id="story"
+        class="page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                💕
+            </div>
+
+            <h1>
+                Our Story
+            </h1>
+
+            <p>
+                Untuk Lydia,
+                setiap hubungan punya cerita.
+                Dan aku bersyukur bisa menjadi
+                bagian dari ceritamu.
+            </p>
+
+
+            <div class="timeline">
+
+
+                <div>
+
+                    <b>
+                        🌱 Awal
+                    </b>
+
+                    <p>
+                        Semuanya berawal dari
+                        sebuah pertemuan sederhana.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <b>
+                        💬 Semakin Dekat
+                    </b>
+
+                    <p>
+                        Kita mulai berbagi cerita,
+                        tawa, dan banyak hal lainnya.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <b>
+                        ❤️ Hari Ini
+                    </b>
+
+                    <p>
+                        Dan sekarang aku bersyukur
+                        masih bisa berjalan bersamamu.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <button onclick="showPhoto(1)">
+                Lihat Kenangan Kita 📸
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         4. FOTO 1
+    ========================================== -->
+
+    <section
+        id="photo1"
+        class="page photo-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <p class="memory-number">
+                Kenangan 1 dari 8
+            </p>
+
+            <h1>
+                Our Memories ❤️
+            </h1>
+
+            <div class="single-photo">
+
+                <img
+                    src="assets/foto1.jpg"
+                    alt="Kenangan Lydia 1"
+                >
+
+            </div>
+
+            <p class="memory-caption">
+                Salah satu momen yang ingin
+                selalu aku ingat bersamamu. ❤️
+            </p>
+
+            <button onclick="showPhoto(2)">
+                Berikutnya ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         5. FOTO 2
+    ========================================== -->
+
+    <section
+        id="photo2"
+        class="page photo-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <p class="memory-number">
+                Kenangan 2 dari 8
+            </p>
+
+            <h1>
+                Momen Kita ❤️
+            </h1>
+
+            <div class="single-photo">
+
+                <img
+                    src="assets/foto2.jpg"
+                    alt="Kenangan Lydia 2"
+                >
+
+            </div>
+
+            <p class="memory-caption">
+                Terima kasih sudah menjadi
+                bagian dari cerita ini. ❤️
+            </p>
+
+            <button onclick="showPhoto(3)">
+                Berikutnya ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         6. FOTO 3
+    ========================================== -->
+
+    <section
+        id="photo3"
+        class="page photo-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <p class="memory-number">
+                Kenangan 3 dari 8
+            </p>
+
+            <h1>
+                Momen Kita ❤️
+            </h1>
+
+            <div class="single-photo">
+
+                <img
+                    src="assets/foto3.jpg"
+                    alt="Kenangan Lydia 3"
+                >
+
+            </div>
+
+            <p class="memory-caption">
+                Beberapa momen sederhana
+                justru menjadi kenangan terindah. ❤️
+            </p>
+
+            <button onclick="showPhoto(4)">
+                Berikutnya ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         7. FOTO 4
+    ========================================== -->
+
+    <section
+        id="photo4"
+        class="page photo-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <p class="memory-number">
+                Kenangan 4 dari 8
+            </p>
+
+            <h1>
+                Momen Kita ❤️
+            </h1>
+
+            <div class="single-photo">
+
+                <img
+                    src="assets/foto4.jpg"
+                    alt="Kenangan Lydia 4"
+                >
+
+            </div>
+
+            <p class="memory-caption">
+                Semoga masih banyak momen
+                seperti ini yang menunggu kita. ❤️
+            </p>
+
+            <button onclick="showPhoto(5)">
+                Berikutnya ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         8. FOTO 5
+    ========================================== -->
+
+    <section
+        id="photo5"
+        class="page photo-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <p class="memory-number">
+                Kenangan 5 dari 8
+            </p>
+
+            <h1>
+                Momen Kita ❤️
+            </h1>
+
+            <div class="single-photo">
+
+                <img
+                    src="assets/foto5.jpg"
+                    alt="Kenangan Lydia 5"
+                >
+
+            </div>
+
+            <p class="memory-caption">
+                Satu foto, satu cerita,
+                dan satu kenangan yang berarti. ❤️
+            </p>
+
+            <button onclick="showPhoto(6)">
+                Berikutnya ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         9. FOTO 6
+    ========================================== -->
+
+    <section
+        id="photo6"
+        class="page photo-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <p class="memory-number">
+                Kenangan 6 dari 8
+            </p>
+
+            <h1>
+                Momen Kita ❤️
+            </h1>
+
+            <div class="single-photo">
+
+                <img
+                    src="assets/foto6.jpg"
+                    alt="Kenangan Lydia 6"
+                >
+
+            </div>
+
+            <p class="memory-caption">
+                Aku ingin terus mengumpulkan
+                kenangan indah bersamamu. ❤️
+            </p>
+
+            <button onclick="showPhoto(7)">
+                Berikutnya ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         10. FOTO 7
+    ========================================== -->
+
+    <section
+        id="photo7"
+        class="page photo-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <p class="memory-number">
+                Kenangan 7 dari 8
+            </p>
+
+            <h1>
+                Momen Kita ❤️
+            </h1>
+
+            <div class="single-photo">
+
+                <img
+                    src="assets/foto7.jpg"
+                    alt="Kenangan Lydia 7"
+                >
+
+            </div>
+
+            <p class="memory-caption">
+                Karena setiap momen bersamamu
+                selalu punya cerita sendiri. ❤️
+            </p>
+
+            <button onclick="showPhoto(8)">
+                Berikutnya ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         11. FOTO 8
+    ========================================== -->
+
+    <section
+        id="photo8"
+        class="page photo-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <p class="memory-number">
+                Kenangan 8 dari 8
+            </p>
+
+            <h1>
+                Kenangan Terakhir ❤️
+            </h1>
+
+            <div class="single-photo">
+
+                <img
+                    src="assets/foto8.jpg"
+                    alt="Kenangan Lydia 8"
+                >
+
+            </div>
+
+            <p class="memory-caption">
+                Dan ini belum menjadi akhir
+                dari cerita kita. ❤️
+            </p>
+
+            <button onclick="showVideo(1)">
+                Lanjut ke Video 🎬
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         12. VIDEO 1
+    ========================================== -->
+
+    <section
+        id="video1"
+        class="page video-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                🎬
+            </div>
+
+            <p class="memory-number">
+                Video 1 dari 3
+            </p>
+
+            <h1>
+                Our Moments ❤️
+            </h1>
+
+            <div class="single-video">
+
+                <video
+                    controls
+                    playsinline
+                >
+
+                    <source
+                        src="assets/video1.mp4"
+                        type="video/mp4"
+                    >
+
+                    Browser kamu tidak mendukung video.
+
+                </video>
+
+            </div>
+
+            <p class="memory-caption">
+                Sebuah momen yang ingin
+                aku lihat lagi dan lagi. ❤️
+            </p>
+
+            <button onclick="showVideo(2)">
+                Video Berikutnya 🎬
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         13. VIDEO 2
+    ========================================== -->
+
+    <section
+        id="video2"
+        class="page video-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                🎬
+            </div>
+
+            <p class="memory-number">
+                Video 2 dari 3
+            </p>
+
+            <h1>
+                Our Moments ❤️
+            </h1>
+
+            <div class="single-video">
+
+                <video
+                    controls
+                    playsinline
+                >
+
+                    <source
+                        src="assets/video2.mp4"
+                        type="video/mp4"
+                    >
+
+                    Browser kamu tidak mendukung video.
+
+                </video>
+
+            </div>
+
+            <p class="memory-caption">
+                Beberapa detik yang menyimpan
+                begitu banyak kenangan. ❤️
+            </p>
+
+            <button onclick="showVideo(3)">
+                Video Berikutnya 🎬
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         14. VIDEO 3
+    ========================================== -->
+
+    <section
+        id="video3"
+        class="page video-page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                🎬
+            </div>
+
+            <p class="memory-number">
+                Video 3 dari 3
+            </p>
+
+            <h1>
+                Our Moments ❤️
+            </h1>
+
+            <div class="single-video">
+
+                <video
+                    controls
+                    playsinline
+                >
+
+                    <source
+                        src="assets/video3.mp4"
+                        type="video/mp4"
+                    >
+
+                    Browser kamu tidak mendukung video.
+
+                </video>
+
+            </div>
+
+            <p class="memory-caption">
+                Dan sekarang masih ada
+                satu hal yang ingin aku sampaikan. ❤️
+            </p>
+
+            <button onclick="showLetter()">
+                Ada Satu Hal Lagi... 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         15. LETTER
+    ========================================== -->
+
+    <section
+        id="letter"
+        class="page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                💌
+            </div>
+
+            <h1>
+                Untuk Lydia ❤️
+            </h1>
+
+
+            <div class="letter">
+
+                <p>
+                    Selamat ulang tahun,
+                    Lydia Putri Ayu Ningsih ❤️
+                </p>
+
+                <br>
+
+                <p>
+                    Terima kasih sudah menjadi
+                    bagian dari hidupku.
+                </p>
+
+                <br>
+
+                <p>
+                    Terima kasih untuk semua cerita,
+                    tawa, dan waktu yang sudah
+                    kita lewati bersama.
+                </p>
+
+                <br>
+
+                <p>
+                    Aku mungkin tidak selalu bisa
+                    memberikan sesuatu yang sempurna,
+                    tetapi aku ingin kamu tahu bahwa
+                    aku selalu menghargai keberadaanmu.
+                </p>
+
+                <br>
+
+                <p>
+                    Semoga di umur yang baru ini,
+                    kamu mendapatkan banyak kebahagiaan,
+                    kesehatan, dan hal-hal baik
+                    yang kamu inginkan.
+                </p>
+
+                <br>
+
+                <p>
+                    Semoga semua impianmu
+                    perlahan bisa menjadi kenyataan.
+                </p>
+
+                <br>
+
+                <p>
+                    Dan semoga kita masih bisa
+                    membuat banyak cerita bersama.
+                </p>
+
+                <br>
+
+                <p>
+                    ❤️ Happy Birthday, Lydia ❤️
+                </p>
+
+            </div>
+
+
+            <button onclick="showSpecialVideo()">
+                Buka Hadiah Terakhir 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         16. SPECIAL VIDEO
+    ========================================== -->
+
+    <section
+        id="special"
+        class="page"
+    >
+
+        <div class="card">
+
+            <div class="emoji">
+                🎁
+            </div>
+
+            <h1>
+                Hadiah Terakhir Untuk Lydia ❤️
+            </h1>
+
+            <p>
+                Video ini aku siapkan khusus
+                untuk kamu.
+            </p>
+
+
+            <div class="single-video">
+
+                <video
+                    id="specialVideo"
+                    controls
+                    playsinline
+                >
+
+                    <source
+                        src="assets/spesialvideo.mp4"
+                        type="video/mp4"
+                    >
+
+                    Browser kamu tidak mendukung video.
+
+                </video>
+
+            </div>
+
+
+            <p class="small-text">
+                Semoga kamu suka ❤️
+            </p>
+
+
+            <button onclick="showFinal()">
+                Selesai ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         17. FINAL
+    ========================================== -->
+
+    <section
+        id="final"
+        class="page"
+    >
+
+        <div class="card final-card">
+
+            <div class="gift">
+                🎁
+            </div>
+
+            <h1>
+                Surprise, Lydia! ❤️
+            </h1>
+
+            <p>
+                Kamu berhasil menyelesaikan
+                perjalanan kecil ini.
+            </p>
+
+            <h2>
+                Tapi sebenarnya...
+            </h2>
+
+            <p>
+                hadiah terbesar yang aku inginkan
+                adalah terus membuat kenangan
+                indah bersamamu.
+            </p>
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+            <h2>
+                Happy Birthday, Lydia! 🎂
+            </h2>
+
+            <p>
+                Semoga hari ini menjadi salah satu
+                hari yang paling indah untukmu.
+            </p>
+
+            <p>
+                ❤️ Dari seseorang yang menyayangimu ❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
